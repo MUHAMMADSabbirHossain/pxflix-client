@@ -4,6 +4,14 @@ const Footer = () => {
     return (
         <div>
             Footer
+
+            {/* footer details  */}
+            <section>
+
+            </section>
+
+            {/* copy right section */}
+            <p><small>Copyright &copy; {(new Date().getFullYear())} PxFlix. All Right Reserved.</small></p>
         </div>
     );
 };
