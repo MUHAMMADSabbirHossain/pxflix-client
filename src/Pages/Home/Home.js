@@ -2,7 +2,7 @@ import React from 'react';
 import Landing from './Landing';
 import HomeFreeMovies from './HomeFreeMovies/HomeFreeMovies';
 import HomeTvShows from './HomeTvShows/HomeTvShows';
-import Trailers from './Trailers/Trailers';
+import Trailers from './HomeTrailers/Trailers';
 
 const Home = () => {
     return (
