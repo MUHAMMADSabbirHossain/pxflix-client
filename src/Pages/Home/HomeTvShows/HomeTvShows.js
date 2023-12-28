@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const HomeTvShows = () => {
     return (
         <div>
-            <div className='flex justify-between'>
+            <div className='my-12 flex justify-between'>
                 <h2>TV SHOWS</h2>
                 <NavLink>View ALL &gt; </NavLink>
             </div>
