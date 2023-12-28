@@ -12,10 +12,14 @@ import FreeTvShows from './Pages/FreeTvShows/FreeTvShows';
 import MovieHub from './Pages/MovieHub/MovieHub';
 import Account from './Pages/Account/Account';
 import FreeMovies from './Pages/FreeMovies/FreeMovies';
+import { useState } from 'react';
 
 function App() {
+  const [dark, setDark] = useState(true);
+  // console.log(dark);
+
   return (
-    <div className="App">
+    <div className="App" data-theme={dark ? "dark" : "light"}>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -31,7 +35,7 @@ function App() {
         </a>
       </header> */}
 
-      <Navbar></Navbar>
+      < Navbar dark={dark} setDark={setDark} ></Navbar >
 
       <Routes>
         <Route path='/' element={<Home></Home>
@@ -48,7 +52,7 @@ function App() {
 
       <Footer></Footer>
 
-    </div>
+    </div >
   );
 }
 
