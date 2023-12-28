@@ -66,7 +66,7 @@ const Navbar = ({ dark, setDark }) => {
                 </ul>
             </div> */}
             <div className="navbar-end hidden lg:flex">
-                <NavLink className="mx-2" to="/">Home</NavLink>
+                <NavLink className="mx-2" to="/">HOME</NavLink>
                 <NavLink className="mx-2" to="/free-movies">FREE MOVIES</NavLink>
                 <NavLink className="mx-2" to="/free-web-series">FREE WEB SERIES</NavLink>
                 <NavLink className="mx-2" to="/free-tv-shows">FREE TV SHOWS</NavLink>
