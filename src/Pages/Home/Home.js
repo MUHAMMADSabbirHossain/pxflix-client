@@ -4,7 +4,6 @@ import Landing from './Landing';
 const Home = () => {
     return (
         <div>
-            Home
             <Landing></Landing>
         </div>
     );
