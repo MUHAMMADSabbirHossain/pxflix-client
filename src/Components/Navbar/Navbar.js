@@ -47,14 +47,14 @@ const Navbar = () => {
                 </ul>
             </div> */}
             <div className="navbar-end hidden lg:flex">
-                <NavLink className="mx-4" to="/">Home</NavLink>
-                <NavLink className="mx-4" to="/free-movies">FREE MOVIES</NavLink>
-                <NavLink className="mx-4" to="/free-web-series">FREE WEB SERIES</NavLink>
-                <NavLink className="mx-4" to="/free-tv-shows">FREE TV SHOWS</NavLink>
-                <NavLink className="mx-4" to="/movie-hub">MOVIE HUB</NavLink>
-                <NavLink className="mx-4" to="/account">ACCOUNT</NavLink>
-                <NavLink className="btn mx-4" to="/login">Login</NavLink>
-                <NavLink className="btn mx-4" to="/register">Register</NavLink>
+                <NavLink className="mx-2" to="/">Home</NavLink>
+                <NavLink className="mx-2" to="/free-movies">FREE MOVIES</NavLink>
+                <NavLink className="mx-2" to="/free-web-series">FREE WEB SERIES</NavLink>
+                <NavLink className="mx-2" to="/free-tv-shows">FREE TV SHOWS</NavLink>
+                <NavLink className="mx-2" to="/movie-hub">MOVIE HUB</NavLink>
+                <NavLink className="mx-2" to="/account">ACCOUNT</NavLink>
+                <NavLink className="btn mx-2" to="/login">Login</NavLink>
+                <NavLink className="btn mx-2" to="/register">Register</NavLink>
             </div>
         </div >
     );
