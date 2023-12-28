@@ -2,6 +2,7 @@ import React from 'react';
 import Landing from './Landing';
 import HomeFreeMovies from './HomeFreeMovies/HomeFreeMovies';
 import HomeTvShows from './HomeTvShows/HomeTvShows';
+import Trailers from './Trailers/Trailers';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Landing></Landing>
             <HomeFreeMovies></HomeFreeMovies>
             <HomeTvShows></HomeTvShows>
+            <Trailers></Trailers>
         </div>
     );
 };
