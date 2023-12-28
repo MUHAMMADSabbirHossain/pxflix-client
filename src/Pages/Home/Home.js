@@ -3,6 +3,7 @@ import Landing from './Landing';
 import HomeFreeMovies from './HomeFreeMovies/HomeFreeMovies';
 import HomeTvShows from './HomeTvShows/HomeTvShows';
 import Trailers from './HomeTrailers/Trailers';
+import HomeWebSeries from './HomeWebSeries/HomeWebSeries';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <HomeFreeMovies></HomeFreeMovies>
             <HomeTvShows></HomeTvShows>
             <Trailers></Trailers>
+            <HomeWebSeries></HomeWebSeries>
         </div>
     );
 };
