@@ -5,6 +5,8 @@ import Navbar from './Components/Navbar/Navbar';
 import NotFoundPage from './Components/NotFoundPage/NotFoundPage';
 import Home from './Pages/Home/Home';
 import { Routes, Route } from 'react-router-dom'
+import Login from './Pages/Login/Login';
+import Register from './Pages/Register/Register';
 
 function App() {
   return (
@@ -25,10 +27,13 @@ function App() {
       </header> */}
 
       <Navbar></Navbar>
+
       <Routes>
         <Route path='/' element={<Home></Home>
         }></Route>
+        <Route path='login' element={<Login></Login>}></Route>
         <Route path='*' element={<NotFoundPage></NotFoundPage>}></Route>
+        <Route path='register' element={<Register></Register>}></Route>
       </Routes>
 
       <Footer></Footer>
