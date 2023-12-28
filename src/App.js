@@ -7,6 +7,11 @@ import Home from './Pages/Home/Home';
 import { Routes, Route } from 'react-router-dom'
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
+import FreeWebSeries from './Pages/FreeWebSeries/FreeWebSeries';
+import FreeTvShows from './Pages/FreeTvShows/FreeTvShows';
+import MovieHub from './Pages/MovieHub/MovieHub';
+import Account from './Pages/Account/Account';
+import FreeMovies from './Pages/FreeMovies/FreeMovies';
 
 function App() {
   return (
@@ -31,6 +36,11 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>
         }></Route>
+        <Route path='/free-movies' element={<FreeMovies></FreeMovies>}></Route>
+        <Route path='/free-web-series' element={<FreeWebSeries></FreeWebSeries>}></Route>
+        <Route path='/free-tv-shows' element={<FreeTvShows></FreeTvShows>}></Route>
+        <Route path='/movie-hub' element={<MovieHub></MovieHub>}></Route>
+        <Route path='/account' element={<Account></Account>}></Route>
         <Route path='login' element={<Login></Login>}></Route>
         <Route path='*' element={<NotFoundPage></NotFoundPage>}></Route>
         <Route path='register' element={<Register></Register>}></Route>
