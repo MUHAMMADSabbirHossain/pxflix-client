@@ -1,4 +1,6 @@
 import React from 'react';
+import AutoPlayCarouselRightToLeft from '../AutoPlayCarouselRightToLeft/AutoPlayCarouselRrightToLeft';
+import AutoPlayCarouselLeftToRight from '../AutoPlayCarouselLeftToRight/AutoPlayCarouselLeftToRight';
 
 const Landing = () => {
     return (
@@ -6,8 +8,8 @@ const Landing = () => {
 
 
 
-            <section class="min-h-dvh">
-                <div className="carousel rounded-box ">
+            <section class="sm:min-h-dvh">
+                {/* <div className="carousel rounded-box ">
                     <div className="carousel-item">
                         <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" alt="Burger" />
                     </div>
@@ -53,7 +55,13 @@ const Landing = () => {
                     <div className="carousel-item">
                         <img src="https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" alt="Drink" />
                     </div>
+                </div> */}
+
+                <div className='hidden sm:block'>
+                    <AutoPlayCarouselRightToLeft></AutoPlayCarouselRightToLeft>
                 </div>
+
+                <AutoPlayCarouselLeftToRight></AutoPlayCarouselLeftToRight>
             </section>
 
 
