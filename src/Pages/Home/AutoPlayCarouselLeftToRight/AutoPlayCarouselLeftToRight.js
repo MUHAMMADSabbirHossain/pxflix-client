@@ -7,19 +7,21 @@ const AutoPlayCarouselLeftToRight = () => {
     return (
         <div className="carousel-container mt-1">
             <div className="carousel-track carousel-track-buttom">
-                {Object.keys(cardDetails).map((detailKey) => {
+                {Object.keys(cardDetails).map((detailKey, index) => {
                     return (
                         <CarouselItem
                             imgUrl={cardDetails[detailKey].imgUrl}
                             imgTitle={cardDetails[detailKey].title}
+                            key={index}
                         ></CarouselItem>
                     );
                 })}
-                {Object.keys(cardDetails).map((detailKey) => {
+                {Object.keys(cardDetails).map((detailKey, index) => {
                     return (
                         <CarouselItem
                             imgUrl={cardDetails[detailKey].imgUrl}
                             imgTitle={cardDetails[detailKey].title}
+                            key={index}
                         ></CarouselItem>
                     );
                 })}
