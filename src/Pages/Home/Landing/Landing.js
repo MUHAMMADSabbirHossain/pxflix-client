@@ -8,7 +8,7 @@ const Landing = () => {
 
 
 
-            <section class="sm:min-h-dvh">
+            <section className="sm:min-h-dvh">
                 {/* <div className="carousel rounded-box ">
                     <div className="carousel-item">
                         <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" alt="Burger" />
